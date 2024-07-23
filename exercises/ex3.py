@@ -26,8 +26,6 @@ def get_data_visuals(df):
 
 def main():
 
-    
-
     with st.sidebar:
         st.header('Please choose:')
         button_upload = st.button("Upload Data")
@@ -42,7 +40,7 @@ def main():
     elif button_explore:
         st.title("Data Visualisation Example") 
         #df_default = pd.read_csv("https://github.com/cristina-v-melnic/dsr-streamlit-app/blob/main/exercises/sales_data.csv")
-        df_default = pd.read_csv('https://raw.githubusercontent.com/cristina-v-melnic/dsr-streamlit-app/blob/main/exercises/sales_data.csv')
+        df_default = pd.read_csv('https://raw.githubusercontent.com/cristina-v-melnic/dsr-streamlit-app/main/exercises/sales_data.csv')
                                
         get_data_visuals(df_default)
 
