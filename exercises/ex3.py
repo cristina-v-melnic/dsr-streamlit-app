@@ -41,7 +41,7 @@ def main():
             get_data_visuals(df)
     elif button_explore:
          st.title("Data Visualisation Example") 
-         df_default = pd.read_csv("data/sales_data.csv")
+         df_default = pd.read_csv("sales_data.csv")
          get_data_visuals(df_default)
 
 
