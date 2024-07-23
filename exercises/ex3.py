@@ -40,10 +40,10 @@ def main():
             df = pd.read_csv(uploaded_file)
             get_data_visuals(df)
     elif button_explore:
-         st.title("Data Visualisation Example") 
-         df_default = pd.read_csv("https://github.com/cristina-v-melnic/dsr-streamlit-app/blob/main/exercises/sales_data.csv")
+        st.title("Data Visualisation Example") 
+        df_default = pd.read_csv("https://github.com/cristina-v-melnic/dsr-streamlit-app/blob/main/exercises/sales_data.csv")
                                
-         get_data_visuals(df_default)
+        get_data_visuals(df_default)
 
 
 if __name__ == "__main__":
