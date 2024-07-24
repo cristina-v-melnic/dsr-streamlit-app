@@ -40,8 +40,13 @@ def main():
         filtered_df = merged_df[(merged_df['year'].between(year_range[0], year_range[1]))]
 
         # Key statistics
+        
+
+        # Scatter plot
+        year = st.slider("Select Year for Visualization", min_value=year_range[0], max_value=year_range[1], value=year_range[1])
+
         latest_year = filtered_df['year'].max()
-        latest_data = filtered_df[filtered_df['year'] == latest_year]
+        latest_data = filtered_df[filtered_df['year'] == year]
         
         col1, col2, col3, col4 = st.columns(4)
         with col1:
@@ -53,10 +58,10 @@ def main():
         with col4:
             st.metric("Number of Countries", f"{latest_data['country'].nunique()}")
 
-        # Scatter plot
-        year = st.slider("Select Year for Visualization", min_value=year_range[0], max_value=year_range[1], value=year_range[1])
         fig = create_scatter_plot(filtered_df, year)
         st.plotly_chart(fig, use_container_width=True)
+
+        
 
 
         st.subheader(f"Correlation coefficients in {year}")
