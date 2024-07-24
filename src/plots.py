@@ -5,9 +5,11 @@ import pandas as pd
 
 
 # Create scatter plot
-def create_scatter_plot(data, year):
+def create_scatter_plot(data_df, year):
 
     custom_data=['headcount_ratio_upper_mid_income_povline']
+    data = data_df.copy().dropna(axis=0)
+
     fig = px.scatter(
         data[data['year'] == year],
         x='GDP per capita',
