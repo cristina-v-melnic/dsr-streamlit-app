@@ -129,8 +129,8 @@ def main():
             st.write(f"Life Expectancy: {selected_country_data['Life Expectancy (IHME)']:.2f} years")
             st.write(f"GDP per capita: ${selected_country_data['GDP per capita']:,.2f}")
 
-            st.write(f"### {country} in the World Distribution in {selected_year}",)
-            comparison_fig = create_comparison_plots_past(merged_df, country_data, country, selected_year)
+            #st.write(f"### {country} in the World Distribution in {selected_year}",)
+            comparison_fig = create_comparison_plots(merged_df, country_data, country, selected_year)
             st.plotly_chart(comparison_fig, use_container_width=True)
         else:
             st.write(f"### No data available for {country} in year {selected_year}")

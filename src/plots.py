@@ -242,7 +242,7 @@ def create_comparison_plots(merged_data, country_data, country, year):
     )
     fig.add_trace(
         go.Scatter(x=[country_year_data['GDP per capita']], y=[0], mode='markers', 
-                   marker=dict(color=colors[1], size=12, symbol='star', line=dict(width=2, color='white')),
+                   marker=dict(color=colors[1], size=30, symbol='triangle-up', line=dict(width=2, color='white')),
                    name=country),
         row=1, col=1
     )
@@ -255,7 +255,7 @@ def create_comparison_plots(merged_data, country_data, country, year):
     )
     fig.add_trace(
         go.Scatter(x=[country_year_data['Life Expectancy (IHME)']], y=[0], mode='markers', 
-                   marker=dict(color=colors[1], size=12, symbol='star', line=dict(width=2, color='white')),
+                   marker=dict(color=colors[1], size=30, symbol='triangle-up', line=dict(width=2, color='white')),
                    name=country),
         row=2, col=1
     )
@@ -268,7 +268,7 @@ def create_comparison_plots(merged_data, country_data, country, year):
     )
     fig.add_trace(
         go.Scatter(x=[country_year_data['headcount_ratio_upper_mid_income_povline']], y=[0], mode='markers', 
-                   marker=dict(color=colors[1], size=12, symbol='star', line=dict(width=2, color='white')),
+                   marker=dict(color=colors[1], size=30, symbol='triangle-up', line=dict(width=2, color='white')),
                    name=country),
         row=3, col=1
     )
@@ -310,6 +310,6 @@ def create_comparison_plots(merged_data, country_data, country, year):
         dict(x=country_year_data['Life Expectancy (IHME)'], y=0, text=f"{country}: {country_year_data['Life Expectancy (IHME)']:.1f} years", showarrow=True, arrowhead=2, row=2, col=1, yshift=10, font=dict(size=12, color=colors[1])),
         dict(x=country_year_data['headcount_ratio_upper_mid_income_povline'], y=0, text=f"{country}: {country_year_data['headcount_ratio_upper_mid_income_povline']:.1f}%", showarrow=True, arrowhead=2, row=3, col=1, yshift=10, font=dict(size=12, color=colors[1]))
     ]
-    fig.update_layout(annotations=annotations)
+    #fig.update_layout(annotations=annotations)
 
     return fig
