@@ -7,7 +7,6 @@ from data import get_data
 
 def main():
     st.set_page_config(layout="wide")
-    st.set_page_config(base="light")
 
     st.markdown("# 🌍 Global Life Quality and Economic Analysis 📊")
 
