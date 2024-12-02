@@ -4,8 +4,7 @@ Interactive dashboard exploring relationships between life expectancy, GDP, and 
 
 [Live Demo](https://cristina-v-melnic-dsr-streamlit-app-srcmain-sadmp3.streamlit.app/)
 
-[Preview
-](https://cristina-v-melnic-dsr-streamlit-app-srcmain-sadmp3.streamlit.app/?embed_options=show_toolbar,light_theme,show_colored_line,show_padding,show_footer)
+(https://cristina-v-melnic-dsr-streamlit-app-srcmain-sadmp3.streamlit.app/?embed_options=show_toolbar,light_theme,show_colored_line,show_padding,show_footer)
 
 ## Features
 
