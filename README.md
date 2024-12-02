@@ -5,8 +5,11 @@ Interactive dashboard exploring relationships between life expectancy, GDP, and 
 [Live Demo](https://cristina-v-melnic-dsr-streamlit-app-srcmain-sadmp3.streamlit.app/)
 
 ![Dashboard Preview](/api/placeholder/800/400)
+![Lifespan prediction model](https://github.com/user-attachments/assets/02babd4b-70b8-41ba-99e4-5ac4b71b4b64)
+
 
 ## Features
+
 - Global overview with interactive scatter plots
 - Country-specific deep dive analysis
 - Time series visualizations
