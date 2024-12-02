@@ -26,15 +26,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the dashboard:
+Run the dashboard from the `dsr-streamlit-app` directory:
 ```bash
 streamlit run src/main.py
 ```
 
 ## Data Sources
-- Life Expectancy: IHME via Our World in Data
-- GDP per capita: Maddison Project Database
-- Poverty rates: World Bank via Our World in Data
+- Life Expectancy:  [Institute for Health Metrics and Evaluation (IHME) via Our World in Data](https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthy%20Life%20Expectancy%20-%20IHME/Healthy%20Life%20Expectancy%20-%20IHME.csv)
+- GDP per capita: [Maddison Project Database 2020](https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Maddison%20Project%20Database%202020%20(Bolt%20and%20van%20Zanden%20(2020))/Maddison%20Project%20Database%202020%20(Bolt%20and%20van%20Zanden%20(2020)).csv)
+- Poverty rates: [World Bank's Poverty and Inequality Platform (PIP) via Our World in Data](https://raw.githubusercontent.com/owid/poverty-data/main/datasets/pip_dataset.csv)
 
 ## Project Structure
 ```
