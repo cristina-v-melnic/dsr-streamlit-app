@@ -3,9 +3,6 @@
 Interactive dashboard exploring relationships between life expectancy, GDP, and poverty rates worldwide using data from Our World in Data.
 
 [Live Demo](https://cristina-v-melnic-dsr-streamlit-app-srcmain-sadmp3.streamlit.app/)
-![Screenshot from 2024-12-02 18-16-39](https://github.com/user-attachments/assets/43012e3c-5a38-4d67-a7fb-cb4462183e15)
-![Screenshot from 2024-12-02 17-58-31](https://github.com/user-attachments/assets/d4cccf9b-f81a-4fb1-ae53-eb50b0eeca02)
-
 
 ## Features
 
@@ -14,6 +11,10 @@ Interactive dashboard exploring relationships between life expectancy, GDP, and 
 - Time series visualizations
 - Predictive modeling for life expectancy
 - Data explorer with download options
+
+![Screenshot from 2024-12-02 18-16-39](https://github.com/user-attachments/assets/43012e3c-5a38-4d67-a7fb-cb4462183e15)
+![Screenshot from 2024-12-02 17-58-31](https://github.com/user-attachments/assets/d4cccf9b-f81a-4fb1-ae53-eb50b0eeca02)
+
 
 ## Installation
 
